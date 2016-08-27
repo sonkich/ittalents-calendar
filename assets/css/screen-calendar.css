@@ -1,0 +1,6 @@
+@media screen and (max-width: 460px) {
+   #header-wrapper {
+      text-align: left !important;
+      padding-left: 15px !important;
+   }
+}
