@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>IT calendar</title>
+
+   <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji" rel="stylesheet">
+   <script src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="assets/javascript/login.js"></script>
+
+   <link rel="stylesheet" href="assets/css/login.css">
+   <link rel="stylesheet" href="assets/css/screen.css">
+</head>
+<body>
+   <div id="wrapper">
+
+      <header>
+            <h1>Welcome to <span>IT</span> calendar</h1>
+
+      </header>
+
+
+      <div id="forms">
+
+         <div id="login-form">
+
+            <div id="login-form-wrapper">
+
+               <div id="btn-login-form" class="btn-forms">
+                  <p>Login</p>
+               </div>
+
+               <form class="login">
+                  <div class="inputs">
+                     <label for="login-acc">Username:</label>
+                     <input type="text" name="login-acc" id="login-acc">
+                  </div>
+                  <div class="inputs">
+                     <label for="password">Password:</label>
+                     <input type="password" name="login-password" id="login-password">
+                  </div>
+
+                  <button type="button" name="login" id = "btn-login">Login</button>
+               </form>
+            </div>
+
+         </div> <!-- end of login-form -->
+
+         <div id="register-form">
+
+            <div id="register-form-wrapper">
+
+               <div id="btn-register-form" class="btn-forms">
+                  <p>Register</p>
+               </div>
+
+               <form class="register">
+
+                  <div class="inputs">
+                     <label for="register-acc">Username:</label>
+                     <input type="text" name="register-acc" id="register-acc">
+                  </div>
+
+                  <div class="inputs">
+                     <label for="register-password">Password:</label>
+                     <input type="password" name="register-password" id="register-password">
+                  </div>
+
+                  <div class="inputs">
+                     <label for="register-password2">Repeat password:</label>
+                     <input type="password" name="register-password2" id="register-password2">
+                  </div>
+
+                  <div class="inputs">
+                     <label for="email">Email:</label>
+                     <input type="text" name="email" id="email">
+                  </div>
+
+                  <div class="inputs">
+                     <label for="name">First name:</label>
+                     <input type="text" name="name" id="name">
+                  </div>
+
+                  <button type="button" name="register" id = "btn-register">Register</button>
+               </form>
+
+            </div>
+
+         </div> <!-- end of register-form -->
+
+      </div> <!-- end of forms -->
+
+   </div> <!-- end of wrapper -->
+</body>
+</html>

@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+   #login-form {
+      width: 100% !important;
+   }
+
+   #register-form {
+      width: 100% !important;
+   }
+
+   #login-form,#register-form {
+      margin-bottom: 10px !important;
+   }
+}

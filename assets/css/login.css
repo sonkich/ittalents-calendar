@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: Arial , sans-serif;
+  background-image: url(../img/bg-pattern.jpg); }
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto; }
+  #wrapper header {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px; }
+    #wrapper header h1 {
+      display: inline-block;
+      padding: 20px;
+      color: #fff;
+      font-size: 3em;
+      font-family: 'Pacifico', cursive;
+      border: 1px solid white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      text-shadow: 0 0 3px rgba(255, 255, 255, 0.5); }
+      #wrapper header h1 span {
+        color: #7abcff;
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        font-family: 'Baloo Paaji', cursive;
+        font-size: 1.1em; }
+  #wrapper #forms {
+    width: 100%;
+    display: inline-block; }
+    #wrapper #forms #login-form-wrapper, #wrapper #forms #register-form-wrapper {
+      margin: 0 auto;
+      padding: 15px;
+      width: 300px;
+      border: 1px solid white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    #wrapper #forms #login-form, #wrapper #forms #register-form {
+      float: left;
+      text-align: center;
+      margin-bottom: 50px; }
+    #wrapper #forms #login-form {
+      width: 52%; }
+    #wrapper #forms #register-form {
+      width: 47%; }
+    #wrapper #forms .btn-forms {
+      width: 300px;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding-top: 25px;
+      padding-bottom: 25px; }
+      #wrapper #forms .btn-forms p {
+        font-size: 2em;
+        color: #fff;
+        text-shadow: 0px 2px 3px #666;
+        font-family: 'Baloo Paaji', cursive; }
+    #wrapper #forms #btn-login-form, #wrapper #forms #btn-register-form {
+      cursor: pointer;
+      background: #ee6a60;
+      background: -webkit-linear-gradient(#ee6a60 0%, #ea9b96 100%);
+      background: -o-linear-gradient(#ee6a60 0%, #ea9b96 100%);
+      background: linear-gradient(#ee6a60 0%, #ea9b96 100%);
+      border-bottom: 2px solid #ED5449;
+      border-right: 2px solid #ED5449;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7), inset 0 0 1px white; }
+      #wrapper #forms #btn-login-form:hover, #wrapper #forms #btn-login-form:active, #wrapper #forms #btn-register-form:hover, #wrapper #forms #btn-register-form:active {
+        background: #ee6a60; }
+      #wrapper #forms #btn-login-form:active, #wrapper #forms #btn-register-form:active {
+        box-shadow: inset 0 0 1px white;
+        border: none; }
+    #wrapper #forms .register, #wrapper #forms .login {
+      background-color: #F3F3F3;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      height: 0;
+      transition: height 1s ease-in-out;
+      display: block;
+      overflow: hidden; }
+      #wrapper #forms .register button, #wrapper #forms .login button {
+        padding: 7px;
+        border-radius: 5px;
+        width: 165px;
+        margin: 10px;
+        background: #ee6a60;
+        cursor: pointer;
+        color: #fff;
+        font-weight: bold;
+        box-shadow: inset 0 0 1px white; }
+        #wrapper #forms .register button:hover, #wrapper #forms .login button:hover {
+          background: #ED5449; }
+    #wrapper #forms .clicked-login {
+      height: 200px; }
+    #wrapper #forms .clicked-register {
+      height: 385px; }
+    #wrapper #forms .inputs {
+      width: 165px;
+      text-align: left;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+      #wrapper #forms .inputs:first-child {
+        margin-top: 15px; }
+      #wrapper #forms .inputs label {
+        display: block;
+        font: 13px Arial, Helvetica, sans-serif;
+        color: #888; }
+      #wrapper #forms .inputs input[type="password"], #wrapper #forms .inputs input[type="text"] {
+        padding: 8px;
+        border-radius: 6px;
+        border: 2px solid #fff;
+        box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33); }
+
+/*# sourceMappingURL=login.css.map */
