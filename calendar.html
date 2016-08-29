@@ -9,6 +9,8 @@
    <link rel="stylesheet" href="assets/css/calendar.css">
    <link rel="stylesheet" href="assets/css/screen-calendar.css">
 
+   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+   <script type="text/javascript" src="assets/javascript/calendar.js"></script>
 </head>
 <body>
    <div id="wrapper">
@@ -67,174 +69,434 @@
             <div>Saturday</div>
             <div>Sunday</div>
          </div>
-         <div class="day">
-            <div class="day-header">
-               <p>1</p>
+         <div id="day-content">
+
+
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+            <div class="day">
+               <div class="day-header">
+                  <p>1</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
             </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
+            <div class="day">
+               <div class="day-header">
+                  <p>2</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sASDASDASxtheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>3</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>4</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>5</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>6</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>7</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>8</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>9</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>10</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>11</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>12</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>13</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+            <div class="day">
+               <div class="day-header">
+                  <p>14</p>
+               </div>
+               <div class="day-content">
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+                  <p>sometextheretoview</p>
+               </div>
+            </div>
+
+         </div>
+      </div> <!-- end of content -->
+
+
+   </div>
+   <div id="day-popup-wrapper">
+      <div id="day-popup" class="white-trans">
+         <div id="popup-head">
+            <p>
+               12.12.1994
+            </p>
+            <span class="fa fa-times"></span>
+         </div>
+
+         <div id="popup-content">
+            <div id="thead">
+               <span>time</span><span>title</span>
+            </div>
+            <table>
+
+               <tbody>
+
+                  <tr>
+
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                     <td>
+                        id
+                     </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+                  <tr>
+                     <td> 6 : 30</td>
+                     <td> sometextheretoview </td>
+                     <td> <span class="fa fa-trash-o"></span> </td>
+                  </tr>
+
+               </tbody>
+            </table>
+
+         </div>
+         <div class="popup-footer">
+            <button type="button" name="button" id="btn-add">Add</button>
+         </div>
+      </div>
+   </div>
+   <div id="note-popup-wrapper">
+      <div id="note-popup">
+         <div>
+            <label for="note-title">Title</label>
+            <input type="text" name="note-title" id="note-title">
+         </div>
+         <div>
+            <label for="note-time">Time</label>
+            <div id="note-hours">
+               <input type="text" name="hours" id="hours" maxlength="2">
+               <input type="text" name="minutes" id="minutes" maxlength="2">
             </div>
          </div>
-         <div class="day">
-            <div class="day-header">
-               <p>2</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
+         <div>
+            <label for="note-text">Note</label>
+            <textarea name="note-text" rows="5" cols="40"></textarea>
          </div>
-         <div class="day">
-            <div class="day-header">
-               <p>3</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>4</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>5</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header pink-day">
-               <p>6</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header pink-day">
-               <p>7</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>8</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>9</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>10</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>11</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header">
-               <p>12</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header pink-day">
-               <p>13</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-            </div>
-         </div>
-         <div class="day">
-            <div class="day-header pink-day">
-               <p>14</p>
-            </div>
-            <div class="day-content">
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
-               <p>sometextheretoview</p>
+         <div>
+            <div id="note-btns">
+               <button type="button" name="btn-note-add" id="btn-note-add">Save</button>
+               <button type="button" name="btn-note-cancel" id="btn-note-cancel">Cancel</button>
             </div>
          </div>
       </div>
    </div>
-
 </body>
 </html>

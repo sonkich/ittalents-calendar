@@ -11,4 +11,10 @@ $(function(){
    $("#btn-register-form").on("click",function(){
       $(".register").toggleClass("clicked-register");
    })
+
+
+
+   $("#btn-login").on("click",function(){
+      window.location.href = "calendar.html";
+   })
 });
