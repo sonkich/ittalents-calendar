@@ -31,6 +31,9 @@ body {
         font-weight: bold;
         font-family: 'Baloo Paaji', cursive;
         font-size: 1.1em; }
+  #wrapper .errors {
+    font: 13px Arial, Helvetica, sans-serif;
+    color: #ED5449; }
   #wrapper #forms {
     width: 100%;
     display: inline-block; }
@@ -95,9 +98,9 @@ body {
         #wrapper #forms .register button:hover, #wrapper #forms .login button:hover {
           background: #ED5449; }
     #wrapper #forms .clicked-login {
-      height: 200px; }
+      height: 230px; }
     #wrapper #forms .clicked-register {
-      height: 385px; }
+      height: 415px; }
     #wrapper #forms .inputs {
       width: 165px;
       text-align: left;

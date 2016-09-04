@@ -43,7 +43,12 @@
                      <input type="password" name="login-password" id="login-password">
                   </div>
 
-                  <button type="button" name="login" id = "btn-login">Login</button>
+                  <div id="login-errors">
+                     <p class="errors"></p>
+                  </div>
+                  <button type="submit" name="login" id = "btn-login">Login</button>
+
+
                </form>
             </div>
 
@@ -83,8 +88,10 @@
                      <label for="name">First name:</label>
                      <input type="text" name="name" id="name">
                   </div>
-
-                  <button type="button" name="register" id = "btn-register">Register</button>
+                  <div id="register-errors">
+                     <p class="errors"></p>
+                  </div>
+                  <button type="submit" name="register" id = "btn-register">Register</button>
                </form>
 
             </div>

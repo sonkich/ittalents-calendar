@@ -26,7 +26,7 @@ body {
       padding-top: 20px;
       padding-bottom: 50px;
 
-      
+
 
       h1 {
 
@@ -49,6 +49,11 @@ body {
 
          }
       }
+   }
+
+   .errors {
+      font: 13px Arial, Helvetica, sans-serif;
+      color: #ED5449;
    }
 
 
@@ -160,11 +165,11 @@ body {
       }
 
       .clicked-login {
-         height: 200px;
+         height: 230px;
       }
 
       .clicked-register {
-         height: 385px;
+         height: 415px;
       }
 
 

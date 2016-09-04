@@ -1,4 +1,6 @@
 $(function(){
+
+   $("#username-head").html(localStorage.getItem("firstname")+'\'s');
    $(".day").on("click",function(){
 
       $("#day-popup-wrapper").css("display" , "block");
@@ -42,6 +44,21 @@ $(function(){
    })
 
    $("#logout").on("click",function(){
-      window.location.href = "index.html";
+
+      localStorage.clear();
+      
+      $.ajax({
+
+         type : 'POST',
+         url  : 'logout.php'
+
+      }).then(function(data){
+
+                window.location.href = "index.html";
+
+		   },function(){
+
+            throw new Error("Server error");
+      });
    })
 });

@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['user_session']))
+{
+ header("Location: index.html");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +27,7 @@
       <header class="white-trans">
          <div id="header-wrapper" class="pink-head">
 
-            <h1><span>Name's</span> Calendar</h1>
+            <h1><span id="username-head">Name's</span> Calendar</h1>
 
             <div id="logout">
 
