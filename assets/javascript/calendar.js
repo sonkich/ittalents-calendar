@@ -1,13 +1,28 @@
 $(function(){
 
    $("#username-head").html(localStorage.getItem("firstname")+'\'s');
-   $(".day").on("click",function(){
+   var user = new User();
+   initSelectorSetter(user);
+   function initSelectorSetter(user){
+      var month = $("#month-select").val(user.getToday().getMonth());
+
+      var year = $("#year-select").val(user.getToday().getFullYear());
+   }
+   $(".day").on("click",dayClick);
+
+   function dayClick(){
 
       $("#day-popup-wrapper").css("display" , "block");
 
-      $("#day-popup-wrapper").fadeTo( 250 , 1, function() {
-       console.log("done");
-      });
+      $("#day-popup-wrapper").fadeTo( 250 , 1, function() {});
+   }
+
+   $(".date-selectors").on("change",function(){
+      var month = $("#month-select").val();
+      var year = $("#year-select").val();
+      var date = new Date(year,month,1);
+      user.changeMonth(date);
+      $(".day").on("click",dayClick);
    })
 
    $("#popup-head span").on("click",function(){
@@ -46,7 +61,7 @@ $(function(){
    $("#logout").on("click",function(){
 
       localStorage.clear();
-      
+
       $.ajax({
 
          type : 'POST',
